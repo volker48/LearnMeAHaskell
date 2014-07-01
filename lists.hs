@@ -5,3 +5,9 @@ main = do
   print concate
   let msg = "Hello" ++ " " ++ "World"
   print msg
+  let access = [10,12,13,14] !! 1
+  print access
+  let first = head ['a', 'b', 'c']
+  print first
+  let end = last ['a', 'b', 'c']
+  print end
